@@ -91,7 +91,7 @@ btnHold.addEventListener('click', () => {
     // Adds the player current store to his total score
     totalScoreEl[activePlayer].textContent = scores[activePlayer];
     // Displays the new total score
-    if (scores[activePlayer] >= 20) {
+    if (scores[activePlayer] >= 100) {
       // Player wins
       gameActive = false;
       // Game ends
